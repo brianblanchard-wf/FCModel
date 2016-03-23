@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source_files  = 'FCModel/*.{h,m}'
   s.library = 'sqlite3'
   s.requires_arc = true
-  s.dependency 'FMDB', '~> 2.1'
+  s.dependency 'FMDB', '2.6'
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
 end
